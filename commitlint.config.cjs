@@ -1,20 +1,20 @@
-const fs = require('fs');
-const path = require('path');
-const { execSync } = require('child_process');
+const fs = require('fs')
+const path = require('path')
+const { execSync } = require('child_process')
 
-const scopes = fs.readdirSync(path.resolve(__dirname, 'packages'));
+const scopes = fs.readdirSync(path.resolve(__dirname, 'packages'))
 
-const gitStatus = execSync('git status --porcelain || true').toString().trim().split('\n');
+const gitStatus = execSync('git status --porcelain || true').toString().trim().split('\n')
 
 const scopeComplete = gitStatus
   .find((r) => ~r.indexOf('M  packages'))
   ?.replace(/(\/)/g, '%%')
-  ?.match(/packages%%((\w|-)*)/)?.[1];
+  ?.match(/packages%%((\w|-)*)/)?.[1]
 
 const subjectComplete = gitStatus
   .find((r) => ~r.indexOf('M  packages'))
   ?.replace(/\//g, '%%')
-  ?.match(/packages%%((\w|-)*)/)?.[1];
+  ?.match(/packages%%((\w|-)*)/)?.[1]
 
 module.exports = {
   extends: ['@yimicat/commitlint-config'],
@@ -32,4 +32,4 @@ module.exports = {
     // 描述预设值
     defaultSubject: subjectComplete && `[${subjectComplete}] `,
   },
-};
+}

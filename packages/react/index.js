@@ -1,6 +1,6 @@
-const tsConfig = require('@yimicat/eslint-config-ts');
-const reactPlugin = require('eslint-plugin-react');
-const reactHooksPlugin = require('eslint-plugin-react-hooks');
+const tsConfig = require('@yimicat/eslint-config-ts')
+const reactPlugin = require('eslint-plugin-react')
+const reactHooksPlugin = require('eslint-plugin-react-hooks')
 
 module.exports = [
   ...tsConfig,
@@ -64,4 +64,4 @@ module.exports = [
       'react-hooks/exhaustive-deps': 'off',
     },
   },
-];
+]

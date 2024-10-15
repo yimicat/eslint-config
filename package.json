@@ -1,7 +1,7 @@
 {
   "name": "@yimicat/eslint-config",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "eslint 配置",
   "publishConfig": {
     "access": "public"
@@ -28,18 +28,14 @@
     "log": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0",
     "build": "unbuild"
   },
-  "dependencies": {
-    "@yimicat/commitlint-config": "workspace:*",
-    "@yimicat/eslint-config-base": "workspace:*",
-    "@yimicat/eslint-config-prettier": "workspace:*"
-  },
   "devDependencies": {
     "@jsdevtools/version-bump-prompt": "^6.1.0",
-    "commitlint": "^19.3.0",
+    "@types/node": "*",
+    "commitlint": "^19.5.0",
     "conventional-changelog-cli": "^5.0.0",
-    "czg": "^1.9.3",
-    "eslint": "^9.7.0",
-    "husky": "^9.0.11",
+    "czg": "^1.10.0",
+    "eslint": "^9.11.1",
+    "husky": "^9.1.6",
     "typescript": "^5.5.3",
     "unbuild": "^v3.0.0-rc.8"
   },

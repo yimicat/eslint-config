@@ -1,6 +1,6 @@
-const vueConfig = require('@yimicat/eslint-config-vue');
-const parserVue = require('vue-eslint-parser');
-const parserTs = require('@typescript-eslint/parser');
+const vueConfig = require('@yimicat/eslint-config-vue')
+const parserVue = require('vue-eslint-parser')
+const parserTs = require('@typescript-eslint/parser')
 
 module.exports = [
   ...vueConfig,
@@ -25,4 +25,4 @@ module.exports = [
       wx: true,
     },
   },
-];
+]

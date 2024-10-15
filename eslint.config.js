@@ -1,5 +1,5 @@
-import baseConfig from '@yimicat/eslint-config-base';
-import eslintPluginPrettier from 'eslint-plugin-prettier';
+import baseConfig from '@yimicat/eslint-config-base'
+import eslintPluginPrettier from 'eslint-plugin-prettier'
 
 export default [
   ...baseConfig,
@@ -16,4 +16,4 @@ export default [
       ],
     },
   },
-];
+]

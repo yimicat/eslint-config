@@ -1,6 +1,6 @@
-const base = require('@yimicat/eslint-config-base');
-const pluginTs = require('@typescript-eslint/eslint-plugin');
-const parserTs = require('@typescript-eslint/parser');
+const base = require('@yimicat/eslint-config-base')
+const pluginTs = require('@typescript-eslint/eslint-plugin')
+const parserTs = require('@typescript-eslint/parser')
 
 // https://typescript-eslint.io/rules
 module.exports = [
@@ -57,4 +57,4 @@ module.exports = [
       '@typescript-eslint/ban-types': 'off',
     },
   },
-];
+]

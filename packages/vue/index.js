@@ -1,7 +1,7 @@
-const tsConfig = require('@yimicat/eslint-config-ts');
-const pluginVue = require('eslint-plugin-vue');
-const parserVue = require('vue-eslint-parser');
-const parserTs = require('@typescript-eslint/parser');
+const tsConfig = require('@yimicat/eslint-config-ts')
+const pluginVue = require('eslint-plugin-vue')
+const parserVue = require('vue-eslint-parser')
+const parserTs = require('@typescript-eslint/parser')
 
 module.exports = [
   ...tsConfig,
@@ -103,4 +103,4 @@ module.exports = [
       'vue/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     },
   },
-];
+]

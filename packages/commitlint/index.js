@@ -116,4 +116,4 @@ module.exports = {
     // // 描述预设值
     // defaultSubject: subjectComplete && `[${subjectComplete}] `,
   },
-};
+}

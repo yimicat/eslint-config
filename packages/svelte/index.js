@@ -1,5 +1,5 @@
-const tsConfig = require('@yimicat/eslint-config-ts');
-const eslintPluginSvelte = require('eslint-plugin-svelte');
+const tsConfig = require('@yimicat/eslint-config-ts')
+const eslintPluginSvelte = require('eslint-plugin-svelte')
 
 module.exports = [
   ...tsConfig,
@@ -11,4 +11,4 @@ module.exports = [
       ...eslintPluginSvelte.configs['flat/recommended'],
     },
   },
-];
+]

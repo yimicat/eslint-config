@@ -30,4 +30,4 @@ module.exports = {
   htmlWhitespaceSensitivity: 'strict',
   // 行结束设置
   endOfLine: 'auto',
-};
+}

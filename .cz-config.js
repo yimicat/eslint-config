@@ -28,4 +28,4 @@ module.exports = {
   },
   skipQuestions: ['scope', 'customScope', 'body', 'footer'],
   subjectLimit: 100,
-};
+}

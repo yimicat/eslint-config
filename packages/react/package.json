@@ -1,0 +1,32 @@
+{
+  "name": "@yimicat/eslint-config-react",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Yimi",
+  "license": "MIT",
+  "homepage": "https://github.com/yimicat/eslint-config/tree/main/packages/vue#yimicateslint-config-react",
+  "keywords": [
+    "eslint-config-react"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.40.0"
+  },
+  "dependencies": {
+    "@yimicat/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.34.4",
+    "eslint-plugin-react-hooks": "^4.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.6.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@yimicat/eslint-config-svelte",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Yimi",
+  "license": "MIT",
+  "homepage": "https://github.com/yimicat/eslint-config/tree/main/packages/svelte#yimicateslint-config-svelte",
+  "keywords": [
+    "eslint-config-svelte"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.40.0"
+  },
+  "dependencies": {
+    "@yimicat/eslint-config-ts": "workspace:*",
+    "eslint-plugin-svelte": "^2.44.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.6.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@yimicat/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Yimi",
+  "license": "MIT",
+  "homepage": "https://github.com/yimicat/eslint-config/tree/main/packages/typescript#yimicateslint-config-ts",
+  "keywords": [
+    "eslint-config-ts"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.40.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@yimicat/eslint-config-base": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.6.0"
+  }
+}
